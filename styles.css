@@ -1,0 +1,120 @@
+body
+{
+    
+    background-color: #e6e6c7; 
+    /* background-image: url('our_background_image.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav_bar
+{
+    width: 95%;
+    margin: auto;
+    top: 0;
+    height: 50%;
+    border-radius: 12px;
+    background-color: green;
+    padding: 25px 0;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content:end;
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Square Peg', cursive;
+}
+
+a
+{
+    position: relative;
+    justify-content: space-around;
+    color: yellow;
+    display: inline-block;
+    border-radius: 2000px;
+    background-color: green;
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 6px 4px;
+}
+
+a::after
+{
+    content:"";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width:0;
+    left:0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+
+a:hover::after
+{
+    width:100%;
+}
+
+.central_content
+{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:60%;
+    margin-right: 10px; 
+    border-style: round;
+    border-radius: 10px;
+    
+    transform: translateY(-50%);
+    text-align:center;
+    color:yellow;
+    font-family: 'Oleo Script', cursive;
+}
+
+.intro_content
+{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    width: 100%;
+}
+.logo
+{
+    height: 100px;
+    justify-content: left;
+}
+
+.our_collaborations
+{
+    width: 100%;
+    font-size: larger;
+    position: absolute;
+    top:25%;
+    transform: translateY(-10%);
+    text-align:center;
+    color:rgb(71, 37, 143);
+    font-family: 'Oleo Script', cursive;
+}
+
+.location_1
+{
+    width: 500px;
+    top: 790%;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+img:hover
+{
+    box-shadow: 0 0 2px 1px rgba(19, 186, 0, 0.5);
+}
+
